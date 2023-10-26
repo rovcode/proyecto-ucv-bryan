@@ -1,0 +1,31 @@
+.fondo-gif{
+    width: 100%;
+    max-width: 100%;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+img{
+    width: 100%;
+    margin: 0;
+    padding:  0;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.title-fondo{
+    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
+    margin-top: -68%; 
+    margin-left: 25%;
+    
+}
+body{
+    background-color: rgb(47, 44, 61);
+}
+.btn-subir{
+    color: #ffffff;
+}
