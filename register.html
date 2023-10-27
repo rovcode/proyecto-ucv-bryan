@@ -153,26 +153,50 @@
     
     <div style="text-align: center;">
       <img class="mb-4" src="../Asset/LOGO.png" alt="" width="72" height="57">
-      <h1 class="h3 mb-3 fw-normal">Iniciar Sesion</h1>
+      <h1 class="h3 mb-3 fw-normal">REGISTRO DE USUARIO</h1>
     </div>
     
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
+      <input type="text" class="form-control" id="floatingInput" placeholder="Nombres">
+      <label for="floatingInput">Nombre</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
+        <input type="text" class="form-control" id="floatingInput" placeholder="Apellido">
+        <label for="floatingInput">Apellido</label>
+      </div>
+      <div class="form-floating">
+        <input list="colegios" class="form-control" id="floatingInput" placeholder="Seleccionar Colegio">
+        <label for="floatingInput">Colegio</label>
+        <datalist id="colegios">
+            <option value="I.E Carlos Noriega Jimenez"></option>
+            <option value="I.E El Bosque"></option>
+            <option value="I.E Santa Rosa de Lima"></option>
+        </datalist>
+      </div>
+      <div class="form-floating">
+        <input type="number" class="form-control" id="floatingInput" placeholder="Edad">
+        <label for="floatingInput">Edad</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Numero telefonico">
+        <label for="floatingInput">Telefono</label>
+      </div>
+      <div class="form-floating">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Correo</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingInput" placeholder="Contraseña">
+        <label for="floatingInput">Contraseña</label>
+      </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Confirmar contraseña">
+      <label for="floatingPassword">Confirmar contraseña</label>
     </div>
 
-    <div class="form-check text-start my-3">
-      <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-      <label class="form-check-label" for="flexCheckDefault">
-        Remember me
-      </label>
-    </div>
-    <button class="btn btn-primary w-100 py-2" type="submit" style="margin-bottom: 10px;">Ingresar</button>
-    <a class="btn btn-primary w-100 py-2"  href="register.html">Registrarme</a>
+  
+    
+    <a class="btn btn-primary w-100 py-2"  href="index.html">Registrarme</a>
     
   </form>
 </main>
