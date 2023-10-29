@@ -1,0 +1,39 @@
+.cardElectrico {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 15px rgba(0, 0, 0, 0.23);
+    border-radius: 1rem;
+  }
+
+  .card-img-top {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .cardElectrico-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.4s, transform 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-text {
+    padding-top: 1rem;
+  }
+
+  .cardElectrico:hover .cardElectrico-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
