@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/cards.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../CSS/juego2.css">
+    <title>Hola Mundo</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0px 20px;">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand " href="../index.html"><img src="../Asset/LOGO.png"
+                            style="width: 75px; height: 60px;"></a>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../Cursos/cursos.html">Cursos <span
+                                        class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Comunidad</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Multimedia</a>
+                                <ul class="dropdown-menu " data-bs-popper="static">
+                                    <li><a class="dropdown-item" href="#">Juegos</a></li>
+                                    <li><a class="dropdown-item" href="#">Videos</a></li>
+                                    <li><a class="dropdown-item" href="#">Album</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-md-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Usuario</a>
+                                <ul class="dropdown-menu " data-bs-popper="static">
+                                    <li><a class="dropdown-item" href="../login.html">Iniciar Sesion</a></li>
+                                    <li><a class="dropdown-item" href="#">Mis Cursos</a></li>
+                                    <li><a class="dropdown-item" href="#">Mis Notas</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center text-white">
+                    MODULO 1
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-white">
+                <h3>
+                    TIPOS DE INTERRUPTORES, CABLES Y DEFICION DE LOS CABLES A USAR
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img alt="Bootstrap Image Preview" src="../Asset/electrico.jpg" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-white">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <h2 class="text-center my-4 ms-4" style="color:rgb(43, 230, 43)">
+                            Juego de memoria
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6" style="display: grid;
+                    grid-template-columns: 100px 100px 100px 100px;
+                    grid-template-rows: repeat(4,1fr);
+                    justify-items: center;
+                    justify-content: center;
+                    gap: 1rem;">
+                            <!-- <div class="row col-md-12" > -->
+                            <div class="col-md-3">
+                                <button id="0" onclick="flip(0)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="1" onclick="flip(1)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="2" onclick="flip(2)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="3" onclick="flip(3)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <!-- </div> -->
+                            <!-- <div class="row col-md-12"> -->
+                            <div class="col-md-3">
+                                <button id="4" onclick="flip(4)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="5" onclick="flip(5)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="6" onclick="flip(6)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="7" onclick="flip(7)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <!-- </div> -->
+                            <!-- <div class="row col-md-12"> -->
+                            <div class="col-md-3">
+                                <button id="8" onclick="flip(8)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="9" onclick="flip(9)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="10" onclick="flip(10)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="11" onclick="flip(11)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <!-- </div> -->
+                            <!-- <div class="row col-md-12"> -->
+                            <div class="col-md-3">
+                                <button id="12" onclick="flip(12)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="13" onclick="flip(13)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="14" onclick="flip(14)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <div class="col-md-3">
+                                <button id="15" onclick="flip(15)" class="btn btn-success"
+                                    style="width: 100px; height: 100px;"></button>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3> <i class="fa fa-bug" aria-hidden="true"></i> <span id="showSuccesses">Aciertos:
+                                            0</span></h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3><i class="far fa-clock"></i> <span id="showTime">iempo restante:<br>30
+                                            segundos</span></h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3><i class="fas fa-crown"></i> <span id="movements">Movimientos: 0</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <script src="../Js/adivina.js"></script>
+                    </div>
+                </div>
+                <script src="../Js/adivina.js"></script>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-white">
+                <main class="game">
+                    <div class="title">
+                        <h1>Pregunta de modulo 1</h1>
+                    </div>
+                
+                    <!-- Start button -->
+                    <div class="start" id="start-panel">
+                        <button id="start" onclick="startGame()">JUGAR</button>
+                    </div>
+                    <!-- Game init -->
+                    <section class="game-panel" id="game-panel">
+                        <h3 id="pregunta">¿Cuál es la pregunta?</h3>
+                        <div>
+                            <img id="imgPreg" src="../Asset/luz.png" style="width: 300px; height: 300px;" alt="">
+                        </div>
+                        <ul class="alternatives">
+                            <div id="alt1" onclick="probarAlt(0)">Alternativa 1</div>
+                            <div id="alt2" onclick="probarAlt(1)">Alternativa 2</div>
+                            <div id="alt3" onclick="probarAlt(2)">Alternativa 2</div>
+                            
+                        </ul>
+                    </section>
+            
+                    <!-- Finish Game -->
+                    <section class="results" id="end-panel">
+                        <h3 id="respuestasBien">Respuestas bien: 3</h3>
+                        <h3 id="respuestasMal">Respuestas mal: 2</h3>
+                    </section>
+                </main>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-white">
+                <h3>
+                    ATRAS
+                </h3>
+            </div>
+            <div class="col-md-4 text-white">
+            </div>
+            <div class="col-md-4 text-white">
+                <h3>
+                    CONTINUAR
+                </h3>
+            </div>
+        </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../login.html" type="module"></script>
+    <script src="../Js/quest.js"></script>
+</body>
+
+</html>

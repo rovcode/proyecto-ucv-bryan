@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    width: 60%;
+    height: 80%;
+}
+
+/* .start{
+    display: none;
+} */
+
+.game-panel{
+    display: none;
+}
+
+.results{
+    display: none;
+}
+
+.alternatives{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
