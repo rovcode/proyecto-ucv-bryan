@@ -10,13 +10,13 @@ let bienRespondidas = 0
 let malRespondidas = 0
 
 
-let preguntas = ["Officia occaecat laborum dolore ipsum nulla.", 
-                "Ad veniam excepteur sunt minim qui do eiusmod non non labore.", 
-                "Officia commodo pariatur tempor minim magna et."]
+let preguntas = ["Que instrumento se encarga de regularizar el ingreso de amperios", 
+                "Que tipo de modelo de cable es necesario para realizar una instalacion de luz", 
+                "Cuentos voltios contiene la corriente elecrtica"]
 
-let alternativas = [["Hola", "Nada", "Nombre"], ["Hola2", "Nada2", "Nombre2"], ["Hola3", "Nada3", "Nombre3"]]
+let alternativas = [["Disyuntor", "Disyuntor diferencial", "soquet"], ["cable 8 AWG", "cable 14 AWG", "cable 4 AWG"], ["210V", "220V", "240V"]]
 
-let respuestas = ["Hola", "Hola2", "Hola3"]
+let respuestas = ["Disyuntor", "cable 14 AWG", "220V"]
 
 function mostrarQuiz(){
     strPreg.innerHTML = preguntas[currentQue]
