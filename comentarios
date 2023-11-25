@@ -1,0 +1,13 @@
+1.- Web
+  Define que lenguaje vas a usar: FrontEnd (html, css, js)/ aquí puedes usar librerias css (Bootstrap)/js (JQuery, Alerts), BanckEnd puedes usar PHP, js, ruby, python, aquí puedes usar framework laravel para php, nodejs
+  para js, RoR para ruby o DJando para python: con esto tienes tu stack para que puedas trabajar. IMPORTANTE: Esto aplica para la web de cara al usuario y tambien para el API, la diferencia que 
+  para el API no tendrás un frontend solo apuntarás a rutas donde van a devolver algo dependiendo el tipo de consulta desde la web, puede ser GET-POST-PUT-PATCH-DELETE, y el endpoint va a ser algo así:
+  https//www.apidick.com/api/usuarios :GET
+  https//www.apidick.com/api/usuarios :POST
+  
+2.- BD : Debes tener una base de datos ER para cada entidad que quieras manejar.
+
+3.- Recomendaciones:
+   Usa laravel, es más rápido levantar un servidor apache, es rapido el manejo de logica y más rápido, cualquier cosa me avisas nomas.
+
+  
